@@ -1,0 +1,150 @@
+.splide__slide {
+    margin-left: 2rem !important;
+    margin-right: 2rem !important;
+}
+
+.recipe-container {
+    justify-content: center;
+}
+
+.recipe {
+    max-width: 300px;
+}
+.recipe .card-content {
+    padding: .5rem;
+}
+.recipes-section {
+    margin-top: -8rem;
+}
+.card,.input,.button {
+    border-radius: 5px;
+}
+
+.recipe img {
+    transition: .3s;
+}
+
+.recipe figure {
+    overflow: hidden;
+}
+
+.recipe img:hover {
+    transform: scale(1.1);
+}
+
+
+
+.hero-section {
+    padding-bottom: 3rem;
+    background-image: url("../img/hero-bg.jpeg");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-mask {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: .6;
+}
+
+.title {
+    font-family: 'Fredoka One', cursive;
+}
+
+.last-product {
+    width: 270px;
+}
+
+.last-product__image {
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.last-product__image img{
+    border-radius: 5px;
+    transition: .3s;
+}
+.last-product__image img:hover {
+    transform: translateY(-15px);
+}
+
+
+.last-product-container{
+    display: flex;
+}
+.parallax {
+  background-image: url("../img/green-food.jpeg");
+
+  height: 350px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-left: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+.parallax > * {
+    flex: 1;
+}
+
+.parallax .container {
+    align-items: center;
+}
+
+.article {
+    height: 285px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 12rem !important;
+    border-radius: 5px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.article__image{
+    margin-left: 1rem;
+}
+.article__image img:hover {
+    transform: scale(1.03);
+}
+
+.article__image img {
+    width: 365px;
+    height: 365px;
+    border-radius: 10px;
+    margin-top: -3rem;
+    transition: .3s;
+}
+.article__content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    line-height: 1.6;
+}
+
+footer {
+    margin-top: 5rem;
+}
+
+footer li {
+    margin-bottom: 1rem;
+}
+
+footer .social-logo {
+    padding: 1rem;
+}
+
+.star--inactive, {
+    opacity: .5;
+}
+.star--active, .star--inactive {
+    width: 15px;
+    margin-right: .2rem;
+}

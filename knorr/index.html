@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Knorr</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="lib/splide/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/">
+                    <img style="max-height: unset" src="img/logo.png" width="50">
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item">Inicio</a>
+                    <a class="navbar-item">Recetas</a>
+                    <a class="navbar-item">Encuentra tu estilo de cocina</a>
+                    <a class="navbar-item">Tips y trucos</a>
+                    <a class="navbar-item">Nuestro propósito</a>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="navbar-item">
+                                <img src="img/svg/search.svg" style="margin-right: .5rem"/>
+                                Buscar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero is-primary hero-section">
+        <div class="hero-mask"></div>
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-6 is-offset-3 pt-3">
+                        <h1 class="has-text-weight-normal title is-1 is-spaced has-text-centered">Descubre recetas <br> sencillas y rápidas</h1>
+                            <form class="column is-9 is-offset-2">
+                                <label class="label has-text-white" for="recipe">Explorar en nuestras recetas</label>
+                                <div class="field has-addons">
+                                    <div class="control is-expanded">
+                                        <input class="input" type="text" name="recipe" placeholder="¿Que prepararemos hoy?">
+                                    </div>
+                                    <div class="control">
+                                        <button class="button is-primary"><img src="img/svg/arrow-right.svg" /></button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section recipes-section">
+
+        <div class="columns">
+            <strong style="z-index:1; padding-bottom: 0" class="column is-offset-3 has-text-white">Últimas recetas</strong>
+        </div>
+
+        <div class="columns">
+
+            <div class="column is-offset-3 is-6">
+                <div class="columns is-mobile recipe-container">
+
+                    <div class="recipe column is-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-2by1">
+                                    <img src="img/receta-1.jpg" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                    <h4 class="subtitle is-6 is-marginless"><a href="#">Pollo alfredo</a></h4>
+                                    <div style="margin-top: .5rem;">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="recipe column is-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-2by1">
+                                    <img src="img/receta-2.jpg" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                    <h4 class="subtitle is-6 is-marginless"><a href="#">Arroz frito</a></h4>
+                                    <div style="margin-top: .5rem;">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="recipe column is-4">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-2by1">
+                                    <img src="img/receta-3.jpg" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="content">
+                                    <h4 class="subtitle is-6 is-marginless"><a href="#">Tacos veganos</a></h4>
+                                    <div style="margin-top: .5rem;">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                        <img class="star--active" src="img/svg/star.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-primary has-text-weight-normal">Nuevos productos</h2>
+            <div class="splide">
+                <div class="splide__track">
+                    <ul class="splide__list">
+
+                        <li class="splide__slide">
+                            <div class="last-product">
+                                <figure class="last-product__image has-background-grey-lighter">
+                                    <img src="img/producto-1.png" alt="Placeholder image">
+                                </figure>
+                                <h4 class="subtitle is-5 has-text-weight-bold"><a href="#">Arroz cheddar listo para cocinar</a></h4>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide">
+                            <div class="last-product">
+                                <figure class="last-product__image has-background-grey-lighter">
+                                    <img src="img/producto-2.png" alt="Placeholder image">
+                                </figure>
+                                <h4 class="subtitle is-5 has-text-weight-bold"><a href="#">Arroz español listo para cocinar</a></h4>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide">
+                            <div class="last-product">
+                                <figure class="last-product__image has-background-grey-lighter">
+                                    <img src="img/producto-3.png" alt="Placeholder image">
+                                </figure>
+                                <h4 class="subtitle is-5 has-text-weight-bold"><a href="#">Escencia Knorr. Japon y carne</a></h4>
+                            </div>
+                        </li>
+
+                        <li class="splide__slide">
+                            <div class="last-product">
+                                <figure class="last-product__image has-background-grey-lighter">
+                                    <img src="img/producto-4.png" alt="Placeholder image">
+                                </figure>
+                                <h4 class="subtitle is-5 has-text-weight-bold"><a href="#">Escencia Knorr. Sabor de korea</a></h4>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="has-text-centered" style="margin-top: 4rem;">
+                <button class="button is-primary is-medium has-text-weight-bold">Descubre todos los productos</button>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="parallax">
+        <div class="columns" style="align-items: center">
+            <div class="column">
+                <h1 class="title is-1 has-text-white has-text-weight-normal">La buena comida hace la diferencia</h1>
+            </div>
+
+            <div class="column has-text-centered">
+                <a href="#" class="button is-white has-text-primary is-medium has-text-weight-bold">Aprende más</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="title is-2 has-text-primary has-text-weight-normal">Tips y trucos</h2>
+
+            <div class="container" style="margin-top: 5rem">
+
+                <div class="has-background-primary columns article animate__animated is-invisible">
+                    <figure class="column is-5 article__image">
+                        <img src="img/blog-1.jpg" alt="Placeholder image">
+                    </figure>
+
+                    <div class="column article__content">
+                        <h3 class="title is-2  has-text-weight-normal"><a class="has-text-white" href="#">Que y que no congelar</a></h3>
+
+                        <p class="has-text-white is-size-5">
+                            Congelar es una manera genial de mantener la textura, sabor y color de las comidas... <a href="#" class="has-text-white has-text-weight-bold">Leer más</a>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="has-background-primary columns article article--reverse animate__animated is-invisible">
+                    <div class="column article__content">
+                        <h3 class="title is-2  has-text-weight-normal"><a class="has-text-white" href="#">El secreto del arroz mexicano rojo</a></h3>
+
+                        <p class="has-text-white is-size-5">
+                            Muy similar al arroz blanco que siempre has cocinado pero con un toque extra de sabor y color... <a href="#" class="has-text-white has-text-weight-bold">Leer más</a>
+                        </p>
+                    </div>
+
+                    <figure class="column is-5 article__image">
+                        <img src="img/blog-2.jpg" alt="Placeholder image">
+                    </figure>
+                </div>
+
+            </div>
+
+            <div class="has-text-centered">
+                <a href="#" class="button is-primary is-large has-text-weight-bold">Ver más artículos</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="footer has-background-primary">
+        <div class="columns">
+            <div class="column is-5">
+                <h3 class="title is-3 has-text-white has-text-weight-normal">Síguenos en nuestras redes sociales</h3>
+                <div class="has-text-centered">
+                    <a href="#"><img class="social-logo" src="img/svg/facebook.svg" alt=""></a>
+                    <a href="#"><img class="social-logo" src="img/svg/instagram.svg" alt=""></a>
+                    <a href="#"><img class="social-logo" src="img/svg/twitter.svg" alt=""></a>
+                    <a href="#"><img class="social-logo" src="img/svg/youtube.svg" alt=""></a>
+                </div>
+            </div>
+
+            <div class="column is-offset-2">
+                <div class="columns">
+                    <div class="column">
+                        <ul>
+                            <li><a href="#" class="has-text-white">Mapa del sitio</a></li>
+                            <li><a href="#" class="has-text-white">Sobre nosotros</a></li>
+                            <li><a href="#" class="has-text-white">Nota de privacidad</a></li>
+                            <li><a href="#" class="has-text-white">Condiciones de uso</a></li>
+                        </ul>
+                    </div>
+                    <div class="column">
+                        <ul>
+                            <li><a href="#" class="has-text-white">Mapa del sitio</a></li>
+                            <li><a href="#" class="has-text-white">Sobre nosotros</a></li>
+                            <li><a href="#" class="has-text-white">Nota de privacidad</a></li>
+                            <li><a href="#" class="has-text-white">Condiciones de uso</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="column">
+                        <ul>
+                            <li><a href="#" class="has-text-white">Ingresar</a></li>
+                            <li><a href="#" class="has-text-white">Preguntas frecuentes</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="lib/splide/dist/js/splide.min.js"></script>
+    <script type="text/javascript" src="lib/main.js"></script>
+</body>
+</html  >
