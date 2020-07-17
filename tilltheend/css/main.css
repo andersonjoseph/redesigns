@@ -1,0 +1,40 @@
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
+
+a,p,span,strong,li,b,button {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    background: url('../img/bg1.png');
+}
+
+.bg-brandgrey {
+    background-color: #2E2C3C;
+}
+
+.about-card {
+    border-bottom: solid 3px #5a4fcf;
+    right: 1rem;
+}
+video {
+  object-fit: cover;
+  width: 100vw;
+}
+
+.artist-image {
+    height: 270px;
+    filter: grayscale(1);
+    opacity: 0.6;
+    transition: .6s;
+}
+.artist-image:hover {
+    filter: none;
+    opacity: 1;
+}
