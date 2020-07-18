@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <header class="hero bg-cover">
-        <nav class="flex flex-row px-4 pt-4">
+    <header class="hero bg-cover bg-black">
+        <nav class="flex flex-column sm-flex-row px-4 pt-4">
             <a href="#" class="p-2 mr-4">
                 <h2 class="white fw-400">Till The End Tattos</h2>
             </a>
@@ -27,7 +27,7 @@
             </div>
         </nav>
 
-        <div class="flex flex-wrap h-100vh p-l5">
+        <div class="flex flex-wrap h-100vh p-l2 sm-p-l5">
             <div class="md-w-50pc sm-w-100pc h-100 white">
                 <h2 class="fw-500 fs-l4 mb-5">La vida es muy corta</h2>
                 <p class="mb-5 animate__animated animate__fadeInLeft wow">
@@ -47,11 +47,11 @@
     <section class="bg-black">
         <div class="flex flex-wrap justify-center">
             <div class="lg-w-50pc md-w-100pc">
-                <img class="h-100pc w-100pc" src="img/girl.png" alt="girl">
+                <img class="h-100pc w-100pc opacity-90 lazy" src="img/placeholder.png" data-srcset="img/girl.png" alt="girl">
             </div>
 
-            <div class="lg-w-50pc md-w-100pc white">
-                <h2 class="fs-xl2 m-0 absolute indigo-20 indigo-darkest opacity-50 sm-hidden lg-block w-100">Sobre Nosotros</h2>
+            <div class="lg-w-50pc md-w-100pc white overflow-hidden">
+                <h2 class="fs-xl2 m-0 absolute indigo-20 indigo-darkest opacity-50 hidden lg-block w-100">Sobre Nosotros</h2>
                 <div class="bg-brandgrey about-card p-l3 lg-mt-l6 md-w-100pc lg-w-50pc lg-absolute md-block animate__slideInRight animate__animated wow">
                     <h2 class="fs-l4 mb-5">Sobre Nosotros</h2>
                     <p>
@@ -69,9 +69,9 @@
         <div class="splide">
             <div class="splide__track">
                 <ul class="splide__list">
-                    <li class="splide__slide"><img class="w-100pc h-100pc object-cover" src="img/sl1.webp" alt="tattoo1"></li>
-                    <li class="splide__slide"><img class="w-100pc h-100pc object-cover" src="img/sl2.webp" alt="tattoo2"></li>
-                    <li class="splide__slide"><img class="w-100pc h-100pc object-cover" src="img/sl3.webp" alt="tattoo3"></li>
+                    <li class="splide__slide"><img class="w-100pc h-100pc object-cover lazy" src="img/placeholder.png" data-srcset="img/sl1.webp" alt="tattoo1"></li>
+                    <li class="splide__slide"><img class="w-100pc h-100pc object-cover lazy" src="img/placeholder.png" src="img/placeholder.png" data-srcset="img/sl2.webp" alt="tattoo2"></li>
+                    <li class="splide__slide"><img class="w-100pc h-100pc object-cover lazy" src="img/placeholder.png" src="img/placeholder.png" data-srcset="img/sl3.webp" alt="tattoo3"></li>
                 </ul>
             </div>
         </div>
@@ -80,7 +80,7 @@
 
     <section>
         <div class="flex flex-wrap bg-black">
-            <div class="lg-w-50pc sm-w-80pc white p-l4 relative">
+            <div class="lg-w-50pc sm-w-80pc white p-l4 relative overflow-hidden">
                 <h2 style="top:0" class="fs-xl2 m-0 indigo-20 absolute indigo-darkest opacity-50">Servicios</h2>
 
                 <h2 class="z-50 fs-l4 mb-5 relative">Servicios</h2>
@@ -115,8 +115,8 @@
                 </ul>
             </div>
 
-            <div class="lg-w-50pc sm-w-20pc animate__fadeInTopRight animate__animated wow">
-                <img class="h-75pc object-none" src="img/servicios.png" alt="servicios">
+            <div class="lg-w-50pc sm-w-20pc animate__fadeInTopRight animate__animated wow hidden sm-block">
+                <img class="h-75pc object-none lazy" src="img/placeholder.png" data-srcset="img/servicios.png" alt="servicios">
             </div>
 
         </div>
@@ -126,8 +126,8 @@
     <section>
 
         <div class="flex flex-wrap">
-            <div class="sm-w-10pc md-w-40pc animate__slideInLeft animate__animated wow">
-                <img class="w-100pc h-100pc object-cover" src="img/ig.png" alt="instagram">
+            <div class="sm-w-10pc md-w-40pc animate__slideInLeft animate__animated wow hidden sm-block">
+                <img class="w-100pc h-100pc object-cover lazy" src="img/placeholder.png" data-srcset="img/ig.png" alt="instagram">
             </div>
 
             <div class="sm-w-90pc md-w-60pc bg-indigo-darkest white flex items-center relative overflow-hidden">
@@ -146,40 +146,44 @@
     </section>
 
     <section class="bg-black pt-5">
-        <h2 class="white z-50 fs-l4 mb-l8 relative fw-500 text-center">Nuestros artístas</h2>
+        <h2 class="white z-50 lg-fs-l4 fs-l2 mb-l8 relative fw-500 text-center">Nuestros artístas</h2>
 
-        <div class="flex animate__fadeInUp animate__animated wow">
-            <figure class="flex-equal">
-                <img class="artist-image" src="img/artista1.jpg" alt="artista">
-            </figure>
-            <figure class="flex-equal">
-                <img class="artist-image" src="img/artista2.webp" alt="artista">
-            </figure>
-            <figure class="flex-equal">
-                <img class="artist-image" src="img/artista3.webp" alt="artista">
-            </figure>
-            <figure class="flex-equal">
-                <img class="artist-image" src="img/artista4.webp" alt="artista">
-            </figure>
-            <figure class="flex-equal">
-                <img class="artist-image" src="img/artista5.webp" alt="artista">
-            </figure>
-            <figure class="flex-equal">
-                <img class="artist-image" src="img/artista6.webp" alt="artista">
-            </figure>
+        <div class="flex flex-column md-flex-row animate__fadeInUp animate__animated wow text-center justify-center">
+            <span class="flex">
+                <figure class="flex-equal">
+                    <img class="artist-image lazy" src="img/placeholder.png" data-srcset="img/artista1.jpg" alt="artista">
+                </figure>
+                <figure class="flex-equal">
+                    <img class="artist-image lazy" src="img/placeholder.png" data-srcset="img/artista2.webp" alt="artista">
+                </figure>
+                <figure class="flex-equal">
+                    <img class="artist-image lazy" src="img/placeholder.png" data-srcset="img/artista3.webp" alt="artista">
+                </figure>
+            </span>
+
+            <span class="flex">
+                <figure class="flex-equal">
+                    <img class="artist-image lazy" src="img/placeholder.png" data-srcset="img/artista4.webp" alt="artista">
+                </figure>
+                <figure class="flex-equal">
+                    <img class="artist-image lazy" src="img/placeholder.png" data-srcset="img/artista5.webp" alt="artista">
+                </figure>
+                <figure class="flex-equal">
+                    <img class="artist-image lazy" src="img/placeholder.png" data-srcset="img/artista6.webp" alt="artista">
+                </figure>
+            </span>
 
         </div>
 
     </section>
 
-
     <section class="bg-black pt-l8">
         <div class="flex flex-wrap white bg-indigo-darkest">
-            <div class="lg-w-33pc p-l4 relative">
+            <div class="lg-w-33pc p-l4 relative overflow-hidden">
                 <h2 style="top:0" class="fs-xl1 w-100pc m-0 indigo-20 absolute indigo opacity-50">Pide tu cita</h2>
                 <h2 class="z-50 fs-l4 mb-5 relative">Pide tu cita</h2>
 
-                <ul class="list-none fs-m3">
+                <ul class="list-none lg-fs-m3 sm-fs-m1">
                     <li class="mb-4 flex">
                         <img class="mr-3" width="30" height="30" src="img/mail.svg" alt="email"/>
                         tilltheendtattoos@gmail.com
@@ -197,9 +201,8 @@
                 </ul>
 
             </div>
-
             <div class="lg-w-66pc md-w-33 text-center relative sm-w-100pc">
-                <img style="top: -3rem; right:0" class="lg-absolute lg-w-60pc md-w-100pc" src="img/gps.png" alt="map">
+                <img style="top: -3rem; right:0" class="lg-absolute lg-w-60pc md-w-100pc lazy" src="img/placeholder.png" data-srcset="img/gps.png" alt="map">
             </div>
 
         </div>
@@ -207,9 +210,9 @@
     </section>
 
     <footer class="bg-brandgrey white p-l5">
-        <div class="flex justify-between items-baseline">
+        <div class="flex flex-column lg-flex-row justify-between items-baseline">
 
-            <ul class="list-none flex">
+            <ul class="list-none flex flex-column lg-flex-row">
                 <li><a class="white fw-bold mr-l4" href="#">Instagram</a></li>
                 <li><a class="white fw-bold mr-l4" href="#">Twitter</a></li>
                 <li><a class="white fw-bold mr-l4" href="#">Youtube</a></li>
@@ -217,10 +220,9 @@
             </ul>
 
             <h2 class="white fw-400">Till The End Tattoos</h2>
+
         </div>
     </footer>
-
-
     <script type="text/javascript" src="lib/main.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script type="text/javascript">
@@ -238,6 +240,11 @@
             width: '100%',
             heightRatio: 0.4
         } ).mount();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/intersection-observer@0.7.0/intersection-observer.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+    <script>
+        new LazyLoad();
     </script>
 </body>
 </html>
