@@ -23,11 +23,6 @@ a {
     border-bottom: solid 3px #5a4fcf;
     right: 1rem;
 }
-video {
-  object-fit: cover;
-  width: 100vw;
-}
-
 .artist-image {
     height: 270px;
     filter: grayscale(1);
